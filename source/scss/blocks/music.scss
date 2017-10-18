@@ -1,0 +1,52 @@
+.music-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.music{
+  width: 200px;
+  margin-right: 85px;
+  margin-bottom: 100px;
+
+  &:nth-child(4n){
+    margin-right: 0;
+  }
+
+  @media #{$laptop-min-width}{
+    margin-right: 55px;
+  }
+}
+
+.music__cover{
+  position: relative;
+  width: 200px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  background-color: $color-brown;
+
+  &:hover{
+    opacity: 0.3;
+  }
+}
+
+.music__cover img{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.music__title{
+  margin-bottom: 4px;
+}
+
+.music__description{
+  font-size: 18px;
+  font-weight: lighter;
+  color: $color-brown;
+}

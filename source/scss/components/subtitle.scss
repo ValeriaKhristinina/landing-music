@@ -1,0 +1,15 @@
+.subtitle{
+  font-size: 24px;
+  font-weight: lighter;
+  width: 570px;
+  text-align: center;
+  color: $color-brown;
+}
+
+.subtitle--mb{
+  margin-bottom: 128px;
+
+  @media #{$laptop-min-width}{
+    margin-bottom: 90px;
+  }
+}

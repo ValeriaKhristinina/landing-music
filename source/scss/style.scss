@@ -1,3 +1,11 @@
-h1{
-  color: red;
-}
+@import "./helpers/variables.scss";
+@import "./helpers/scaffolding.scss";
+@import "./helpers/breakpoints.scss";
+
+@import "./components/title.scss";
+@import "./components/subtitle.scss";
+@import "./components/link.scss";
+
+@import "./blocks/main-content.scss";
+@import "./blocks/container.scss";
+@import "./blocks/music.scss";

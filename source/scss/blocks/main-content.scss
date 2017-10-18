@@ -1,0 +1,12 @@
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1055px;
+  margin: 0 auto;
+
+  @media #{$laptop-min-width}{
+    width: 990px;
+  }
+}

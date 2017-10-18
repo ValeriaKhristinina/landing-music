@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Segoe UI,Fira Sans,Roboto,Oxygen,Ubuntu,Droid Sans,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+header {
+  min-height: 50px;
+  background-color: $color-lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-size: inherit;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
