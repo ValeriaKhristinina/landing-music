@@ -1,0 +1,10 @@
+$mobile-width: 375px;
+$tablet-width: 768px;
+
+$laptop-width: 992px;
+$laptop-large-width: 1200px;
+
+$mobile-min-widths: "(min-width: $mobile-width)";
+$tablet-min-widths: "(min-width: $tablet-width)";
+$laptop-min-width: "(min-width: $laptop-width)";
+$laptop-large-min-width: "(min-width: $laptop-large-width)";
