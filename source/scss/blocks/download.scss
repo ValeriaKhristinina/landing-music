@@ -1,0 +1,13 @@
+.download{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+}
+
+.download .subtitle{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 6px;
+}

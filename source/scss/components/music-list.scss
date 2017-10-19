@@ -1,0 +1,38 @@
+.music-list{
+  margin-bottom: 24px;
+}
+
+.music-list__item{
+  position: relative;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 30px;
+  color: $color-blue;
+}
+
+.music-list__item::before{
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  border-top:solid 8px transparent;
+  border-bottom:solid 8px transparent;
+  border-right:solid 12px transparent;
+  border-left:solid 12px $color-blue;
+}
+
+.music-list__item::after{
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  border-top:solid 4px transparent;
+  border-bottom:solid 4px transparent;
+  border-right:solid 6px transparent;
+  border-left:solid 6px white;
+}
+
+.music-list__item-count{
+  padding-right: 12px;
+}
+

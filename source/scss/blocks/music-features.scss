@@ -1,0 +1,32 @@
+.music-features-wrapper{
+  width: 100%;
+  background-color: $color-lightgrey;
+}
+
+.music-features{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 126px 0;
+
+  @media #{$laptop-min-width}{
+    padding: 90px 0;
+  }
+}
+
+.music-features__item{
+  width: 495px;
+  margin-bottom: 50px;
+}
+
+.music-features__title{
+  display: block;
+  margin-bottom: 12px;
+}
+
+.music-fetures__description{
+  font-size: 20px;
+  font-weight: lighter;
+  color: $color-grey;
+}
